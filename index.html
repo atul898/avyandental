@@ -1,32 +1,43 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Lucky Draw - Avyan Dental</title>
-        <style>
-            img {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-                height: 80vh;
-                margin: 0;
-                display: block;
-                margin: 0 auto
-            }
+<head>
+    <title>Lucky Draw - Avyan Dental</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
 
-            section {
-                text-align: center
-            }
+        section {
+            text-align: center;
+            padding: 20px;
+        }
 
+        h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            max-height: 80vh; /* Adjust the max-height as needed */
+            height: auto;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
             h1 {
-                font-size: 48px
+                font-size: 36px; /* Adjust the font size for smaller screens */
             }
-        </style>
-    </head>
-    <body>
-        <section>
-            <h1>Scan and enter to WIN 🥇 🏆 lucky draws</h1>
-        </section>
-        <img src="IMG_4533.jpg" alt="Your Image">
-    </body>
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1>Scan and Enter to WIN 🥇 🏆 lucky draws</h1>
+    </section>
+    <img src="IMG_4533.jpg" alt="Your Image">
+</body>
 </html>
